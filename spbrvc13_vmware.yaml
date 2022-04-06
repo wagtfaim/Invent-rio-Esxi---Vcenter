@@ -1,7 +1,7 @@
 plugin: community.vmware.vmware_host_inventory
 strict: False
 hostname: "spbrvc13.grupoamil.com.br"
-username: "{{ credential_vcenter_user }}"
+username: "{{ credential_vcenter_username }}"
 password: "{{ credential_vcenter_password }}"
 validate_certs: False
 with_tags: False
