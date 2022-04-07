@@ -2,7 +2,7 @@ plugin: community.vmware.vmware_host_inventory
 strict: False
 hostname: "spbrvc13.grupoamil.com.br"
 username: "zabbix@vsphere.local"
-password: "rXsO#kPH76fe@"
+password: "{{ passwd }}"
 validate_certs: False
 with_tags: False
 register: host_list
